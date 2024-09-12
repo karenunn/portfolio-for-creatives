@@ -115,7 +115,7 @@ html {
   /*--linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
   --linear-gradient-color-3: #321575; */
-  --hero-text-color: rgba(0, 0, 0, 0.4);
+  --stroke-shadow: rgba(0, 0, 0, 0.4);
 }
 
 body {
