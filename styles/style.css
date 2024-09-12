@@ -114,8 +114,8 @@ html {
   --text-selection-background-color: #5200ff;
   /*--linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
-  --linear-gradient-color-3: #321575; 
-  --stroke-shadow-color: rgba(0, 0, 0, 0.4);*/
+  --linear-gradient-color-3: #321575; */
+  --hero-text-color: rgba(0, 0, 0, 0.4);
 }
 
 body {
