@@ -90,7 +90,7 @@ html {
   --background-color-footer: #f5f5f5;
   --alt-background-color: #000000;
   --background-color-holding-page: rgba(82, 0, 255, 0.6);
-  --h1-color: #5200ff;
+  --h1-color: #800813;
   --h2-color: #5200ff;
   --h3-color: #5200ff;
   --h4-color: #5200ff;
@@ -99,15 +99,15 @@ html {
   --primary-text-color: #222;
   --holding-page-title-color: #4d6fa1;
   --accent-color: #5200ff;
-  --overlay-color: #5200ff;
+  --overlay-color: #800813;
   --overlay-title-color: #ffffff;
   --overlay-description-color: #ffffff;
   --hyperlink-color: #5200ff;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --visited-color: #5200ff;
-  --project-title-color: #5200ff;
-  --project-sidebar-background-color: orangered;
+  --project-title-color: #800813;
+  --project-sidebar-background-color: none;
   --project-sidebar-text-color: white;
   --heart-color: darkred;
   --holding-page-footer-color: #f8f8ff;
@@ -305,6 +305,7 @@ a:active {
   font-size: 1.225rem;
   line-height: 1.2;
   margin-bottom: 1rem;
+  color: #272425;
 }
 
 /* Hero 

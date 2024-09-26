@@ -1,0 +1,24 @@
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: 0000;
+}
+
+.strawberry-wrapper {
+  width: 40%;
+}
+
+.strawberry-body {
+  fill: #ffa8e7;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+.empty {
+  fill: none;
+}
+
+.strawberry-body:hover {
+  fill: #ffa8e7;
+}
