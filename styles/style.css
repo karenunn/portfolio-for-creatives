@@ -10,7 +10,7 @@
 
 /* TODO: Delete the Google Fonts below and add the Google Fonts you want to use on your site. Each Google font that you load will slightly increase the download speed of your site so make sure to only included necessary fonts here. */
 
-@import url("https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Onest:wght@100..900&family=Platypi:ital,wght@0,300..800;1,300..800&family=SUSE:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Laila:wght@300;400;500;600;700&family=Ojuju:wght@200..800&family=Platypi:ital,wght@0,300..800;1,300..800&family=SUSE:wght@100..800&display=swap");
 
 /*
 
@@ -78,7 +78,7 @@ html {
 
 :root {
   --body-typeface: "Inter", sans-serif;
-  --heading-typeface: "Platypi", sans-serif;
+  --heading-typeface: "SUSE", sans-serif;
   --project-title-typeface: "Platypi", sans-serif;
   --background-color: #fdfdfd;
   --background-color-about: #f5f5f5;
@@ -369,20 +369,25 @@ a:active {
   letter-spacing: 0.05rem;
   font-size: 8rem;
   animation-name: fontChange;
-  animation-duration: 2s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
 @keyframes fontChange {
-  0% {
-    font-family: "Platypi", serif;
-  }
-  40% {
-    font-family: "Onest", serif;
+  10% {
+    font-family: "SUSE", sans-serif;
   }
 
-  80% {
-    font-family: "Ojuju", serif;
+  50% {
+    font-family: "Ojuju", sans-serif;
+  }
+
+  75% {
+    font-family: "Averia Sans Libre", sans-serif;
+  }
+
+  100% {
+    font-family: "Inter", sans-serif;
   }
 }
 
