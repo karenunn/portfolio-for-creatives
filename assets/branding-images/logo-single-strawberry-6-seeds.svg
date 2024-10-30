@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 359.36 434.02">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188.78 228">
   <defs>
     <style>
       .cls-1 {
-        fill: #272425;
+        fill: #395b3d;
       }
 
       .cls-1, .cls-2, .cls-3 {
@@ -19,15 +19,15 @@
       }
     </style>
   </defs>
-  <polygon class="cls-3" points="59.21 375.22 207.74 434.02 269.63 392.24 325.33 140.04 282.01 92.07 77.77 87.43 28.26 194.19 59.21 375.22"/>
-  <polygon class="cls-1" points="0 178.36 109.45 149.9 225.8 64.65 61.29 62.34 0 178.36"/>
-  <polygon class="cls-1" points="351.34 195.89 195.99 94.47 206.4 57.08 241.34 53.21 359.36 143.66 351.34 195.89"/>
-  <polygon class="cls-1" points="200.54 0 167.41 64.05 218.21 67.37 228.15 18.77 200.54 0"/>
-  <ellipse class="cls-2" cx="101.48" cy="211.63" rx="12.78" ry="26.47" transform="translate(-33.75 19.8) rotate(-9.56)"/>
-  <path class="cls-2" d="M185.55,292.57c0,14.62-5.72,26.47-12.78,26.47-7.06,0-12.78-11.85-12.78-26.47,0-14.62,5.72-26.47,12.78-26.47,7.06,0,12.78,11.85,12.78,26.47Z"/>
-  <ellipse class="cls-2" cx="109.21" cy="326.18" rx="12.78" ry="26.47" transform="translate(-74.17 35.16) rotate(-13.7)"/>
-  <ellipse class="cls-2" cx="195.03" cy="190.43" rx="26.47" ry="12.78" transform="translate(-12.95 366.62) rotate(-84.59)"/>
-  <ellipse class="cls-2" cx="254.53" cy="258.33" rx="26.47" ry="12.78" transform="translate(-53.85 449.18) rotate(-77.18)"/>
-  <ellipse class="cls-2" cx="225.55" cy="354.14" rx="26.47" ry="12.78" transform="translate(-181.59 456.74) rotate(-71.65)"/>
-  <polyline class="cls-1" points="194.43 62.86 271.89 196.92 192.4 189.81 173.9 155.21 195.36 59.29"/>
+  <polygon class="cls-3" points="31.1 197.11 109.13 228 141.64 206.05 170.9 73.56 148.15 48.37 40.86 45.93 14.85 102.01 31.1 197.11"/>
+  <polygon class="cls-1" points="0 93.69 57.5 78.74 118.62 33.96 32.2 32.75 0 93.69"/>
+  <polygon class="cls-1" points="184.56 102.91 102.95 49.63 108.43 29.99 126.78 27.95 188.78 75.47 184.56 102.91"/>
+  <polygon class="cls-1" points="105.35 0 87.94 33.65 114.63 35.39 119.85 9.86 105.35 0"/>
+  <ellipse class="cls-2" cx="53.31" cy="111.17" rx="6.71" ry="13.91" transform="translate(-17.73 10.4) rotate(-9.56)"/>
+  <ellipse class="cls-2" cx="90.76" cy="153.69" rx="6.71" ry="13.91"/>
+  <ellipse class="cls-2" cx="57.37" cy="171.35" rx="6.71" ry="13.91" transform="translate(-38.96 18.47) rotate(-13.7)"/>
+  <ellipse class="cls-2" cx="102.45" cy="100.04" rx="13.91" ry="6.71" transform="translate(-6.8 192.59) rotate(-84.59)"/>
+  <ellipse class="cls-2" cx="133.71" cy="135.71" rx="13.91" ry="6.71" transform="translate(-28.29 235.96) rotate(-77.18)"/>
+  <ellipse class="cls-2" cx="118.48" cy="186.04" rx="13.91" ry="6.71" transform="translate(-95.39 239.93) rotate(-71.65)"/>
+  <polyline class="cls-1" points="102.14 33.02 142.83 103.45 101.07 99.71 91.35 81.53 102.63 31.15"/>
 </svg>

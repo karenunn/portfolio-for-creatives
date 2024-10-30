@@ -52,7 +52,6 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url("../assets/temp/up-cursor.png"), auto !important;
   /* TODO: Change the url above to add a custom cursor. Delete the line above if you want to use the default browser cursor. */
 }
 
@@ -363,14 +362,17 @@ a:active {
 /* Hero Text Animation */
 
 .change-text {
-  color: white;
-  width: 100%;
+  color: #395b3d;
+  font-size: 8rem;
+  font-family: "Averia Sans Libre", sans-serif;
+  /* width: 100%;
   min-height: 20rem;
   letter-spacing: 0.05rem;
   font-size: 8rem;
   animation-name: fontChange;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  */
 }
 
 @keyframes fontChange {
@@ -389,6 +391,12 @@ a:active {
   100% {
     font-family: "Inter", sans-serif;
   }
+}
+
+/* Project Gif */
+
+.project-gif {
+  justify-items: center;
 }
 
 /* Work Page Layout
@@ -504,7 +512,7 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  min-height: 100vh;
+  min-height: 1rem;
   background: var(--background-color-footer);
   padding: 1rem;
 }

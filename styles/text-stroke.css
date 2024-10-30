@@ -4,7 +4,7 @@
   --font-weight: 700;
   --letter-spacing: calc(1em / 8);
 }
-
+/*
 .text-stroke {
   -webkit-background-clip: text;
   background-clip: text;
@@ -41,3 +41,4 @@
   -webkit-text-stroke-width: calc(1em / 16);
   -webkit-text-stroke-width: var(--stroke-width);
 }
+  */
