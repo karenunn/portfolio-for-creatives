@@ -143,7 +143,7 @@ svg {
 */
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
   color: var(--h1-color);
@@ -308,7 +308,7 @@ a:active {
 */
 
 .hero {
-  min-height: 80vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
 }
@@ -340,17 +340,18 @@ a:active {
 
 .hero-headline-intro {
   flex-direction: column;
-  padding: 4rem;
+  padding: 2rem;
   align-items: center;
 }
 
 .hero-sub-head {
   align-items: center;
-  size: 5 rem;
+  color: #263d29;
+  font-size: 1.75rem;
 }
 
 .hero-icon {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .hero-footer {
@@ -371,16 +372,17 @@ a:active {
 
 .change-text {
   color: #395b3d;
-  font-family: "Averia Sans Libre", sans-serif;
   display: flex;
 
   width: 100%;
-  letter-spacing: 0.05rem;
-  font-size: 8rem;
-  animation-name: fontChange;
+  letter-spacing: -0.3rem;
+  font-size: 5rem;
+  font-weight: 500;
+  /* animation-name: fontChange;
   animation-duration: 5s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
 }
+/* 
 
 @keyframes fontChange {
   10% {
@@ -395,7 +397,7 @@ a:active {
     color: #273746;
   }
 
-  /* 10% {
+   10% {
     font-family: "SUSE", sans-serif;
   }
 
@@ -409,8 +411,8 @@ a:active {
 
   100% {
     font-family: "Inter", sans-serif;
-  } */
-}
+  } 
+} */
 
 /* Work Page Layout
 
@@ -524,8 +526,9 @@ a:active {
 .global-footer {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 3rem;
-  min-height: 1rem;
+  grid-column-gap: 3rem;
+  grid-row-gap: 5rem;
+  min-height: 2rem;
   background: var(--background-color-footer);
   padding: 1rem;
 }
@@ -721,7 +724,19 @@ a:active {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-  /* TODO: Add styles here for medium devices. */
+  .hero-headline-wrapper {
+    padding: 2rem;
+  }
+
+  .change-text {
+    letter-spacing: -0.3rem;
+    font-size: 6rem;
+    font-weight: 500;
+  }
+
+  .hero-sub-head {
+    font-size: 2.75rem;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -748,6 +763,16 @@ a:active {
   .logo {
     width: 5rem;
     /* TODO: Adjust the width of the logo on large devices here. */
+  }
+
+  .change-text {
+    letter-spacing: -0.3rem;
+    font-size: 9rem;
+    font-weight: 500;
+  }
+
+  .hero-sub-head {
+    font-size: 4rem;
   }
 
   .hero {
