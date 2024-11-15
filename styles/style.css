@@ -684,13 +684,23 @@ a:active {
 ██      ██   ██ ██   ██ ██    ██ ██   ██ 
 ███████ ██   ██ ██   ██  ██████  ██   ██ 
 */
+.error-headline-wrapper {
+  padding-top: 4rem;
+  align-self: center;
+  text-align: center;
+}
 
-/* TODO: Customize your 404 Error Page */
+.moldy-logo {
+  size: 5rem;
+  padding-bottom: 1rem;
+}
 
-/* The best 404 pages have become an art in themselves. Your 404 error page is an opportunity to make a memorable impression on your visitors when they don’t land exactly where they hoped. */
+.error-page-title {
+  font-weight: 700;
+  font-size: 8rem;
+}
 
 /*
-
 ██████  ██       █████  ██    ██ 
 ██   ██ ██      ██   ██  ██  ██  
 ██████  ██      ███████   ████   
